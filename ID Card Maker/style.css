@@ -1,0 +1,41 @@
+body {
+    background-color: #61a4bb;
+    }
+    
+#form {
+    text-align: center;
+    }
+
+.input {
+    margin-top: .4em;
+    margin-bottom: .5em;
+    width: 10em;
+    }
+
+#idCard {
+    background-color: #eec4cb;
+    border: 5px solid black;
+    border-radius: 2em;
+    /* Include a unique font for your id card */
+    font-family: "Roboto", sans-serif;
+    margin: 4.4em auto;
+    height: 14em;
+    width: 25em;
+    }
+
+img {
+    width: 90px;
+    height: 90px;
+    float: left;
+    }
+
+.fullName {
+    font-size: 1.7em;
+    text-align: center;
+    margin: auto;
+    padding: 1.25em 1em .75em 1em;
+    }
+
+.otherInfo {
+    padding-left: .9em;
+    }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ID Card Maker</title>
+    <!-- Include a unique font for your id card -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div id="form">
+            <!-- Header -->
+            <h1>Let's Create an ID Card!</h1>
+
+            <!-- Inputs and Labels -->
+            <label for="firstName">First Name: </label><br>
+            <input class="input" id="firstName" placeholder="First Name" type="text"><br>
+            <label for="lastName">Last Name: </label><br>
+            <input class="input" id="lastName" placeholder="Last Name" type="text"><br>
+            <label for="age">Age: </label><br>
+            <input class="input" id="age" placeholder="Age" type="text"><br>
+            <label for="phoneNumber">Phone Number: </label><br>
+            <input class="input" id="phoneNumber" placeholder="Phone Number" type="text"><br>
+            <label for="address">Address: </label><br>
+            <input class="input" id="address" placeholder="Address" type="text"><br>
+
+            <!-- Submit Button -->
+            <button onclick="idCard()">Get ID card!</button>
+        </div>
+    </div>
+    <div id="idCard">
+        <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+        <p class="fullName" id="postFullName">Your Name</p>
+        <p class="otherInfo" id="postAge">Your Age</p>
+        <p class="otherInfo" id="postPhoneNumber">Your Phone Number</p>
+        <p class="otherInfo" id="postAddress">Your Address</p>
+        
+
+        <script src="script.js"></script>
+        
+    </div>
+
+</body>
+
+</html>
